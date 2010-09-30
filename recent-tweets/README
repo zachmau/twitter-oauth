@@ -1,0 +1,18 @@
+To display a single user feed pass the latest_tweet function the username and the number of tweets you wish to display.
+
+<div id="twitter_box">
+<ul id="twitter_update_list"><?php echo $twitter->latest_tweet('USERNAME-HERE', 5); ?></ul>
+<div class="tell_followers"><a title="Follow @USERNAME-HERE" href="http://www.twitter.com/USERNAME-HERE" rel="external"><strong>@USERNAME-HERE</strong> <?php print $twitter->followers_counter('USERNAME-HERE') ?> followers</a></div>
+</div>
+
+You can also display multiple user feeds in the same box like this:
+
+<div id="twitter_box">
+<ul id="twitter_update_list">
+<?php
+$username = "popartinc spaceninja";
+$tweetnumber = "10"; // Number of tweets to pull in
+parse_cache_feed( $usernames, $tweetnumber );
+?>
+</ul>
+</div>
