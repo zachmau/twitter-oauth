@@ -9,7 +9,7 @@ if(!($_POST['twitter']))
 }
 else {
 
-	$connection = getConnectionWithAccessToken("106653838-uwSJGOjQlgKQEzzVoJyl8TfrYtARniCbFp82eYH7","uTLLEGD1TuEGCChj8qzg6kObM9v6TKFILe8W6fGkd2k");
+	$connection = getConnectionWithAccessToken("","");
 	$connection->get('account/verify_credentials');
 	$connection->format = 'xml';
 	

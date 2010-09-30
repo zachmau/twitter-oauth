@@ -13,7 +13,7 @@ $twitterers_shown = 12;
 if(!file_exists($cache_file) || time() - filemtime($cache_file) > $cache_expire_time)
 {
 	// CONNECT to twitter using twitteroauth
-	$connection = getConnectionWithAccessToken("106653838-uwSJGOjQlgKQEzzVoJyl8TfrYtARniCbFp82eYH7","uTLLEGD1TuEGCChj8qzg6kObM9v6TKFILe8W6fGkd2k");
+	$connection = getConnectionWithAccessToken("","");
 	$connection->get('account/verify_credentials');
 	$connection->format = 'xml';
 	// RETURN the members of the friends list
