@@ -1,0 +1,6 @@
+This project takes advantage of Twitter's List functionality and allows us to use the API to create a widget that flips lists the other way around and create a friend box you can put in your sidebar that allows your visitors to fill in their twitter name and join a specially crafted friend list in your twitter account.
+
+This version of the friend box connects to Twitter using twitteroauth library and returns JSON format as a regular array.
+
+You can view the original project here:
+http://tutorialzine.com/2009/11/twitter-list-ajax-fanpage/
