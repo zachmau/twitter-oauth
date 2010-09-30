@@ -1,0 +1,203 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	/* Page reset */
+	margin:0;
+	padding:0;
+}
+
+body{
+	/* Setting default text color, background and a font stack */
+	color:#444444;
+	font-size:13px;
+	background: url(img/demo_bg_tile.jpg) repeat;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#fanPage{
+	/* This is the container that holds the widget */
+	background-color:#002233;
+	color:white;
+	height:300px;
+	margin:30px auto;
+	padding:10px;
+	text-align:left;
+	width:170px;
+}
+
+#fanPage a, #fanPage a:visited{
+	/* This styles the title and total fans links */
+	color:white;
+	text-decoration:none;
+}
+
+#fanPage a:hover{
+	text-decoration:underline;
+}
+
+.title{
+	/* The title on the top */
+	background-color:#013853;
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	font-size:16px;
+	letter-spacing:1px;
+	margin:3px 0 10px;
+	padding:4px 8px;
+	position:relative;
+	text-align:right;
+	text-transform:uppercase;
+}
+
+
+#twitBird{
+	/* The twitter icon on the top */
+	left:-10px;
+	position:absolute;
+	top:-28px;
+}
+
+.content{
+	/* The div that holds the twitter avatars */
+	background-color:#eeeeee;
+	padding:6px;
+	text-align:left;
+	height:208px;
+	position:relative;
+	color:#333333;
+}
+
+#mask{
+	/* Inserted once you click the green "Join" button */
+	font-size:10px;
+	left:0;
+	padding:10px;
+	position:absolute;
+	top:0;
+}
+
+#mask label{
+	display:block;
+	font-weight:bold;
+	margin:8px 0 4px;
+	text-transform:uppercase;
+}
+
+#twitterName{
+	/* The twitter name input box */
+	background-color:#FCFCFC;
+	border:1px solid #CCCCCC;
+	color:#333333;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	padding:2px;
+}
+
+#mask a.greyButton,#mask a.greyButton:visited{
+	/* The default state of the gray join button */
+	display:inline-block;
+	height:19px;
+	margin-top:10px;
+	padding:6px 0 0;
+	text-align:center;
+	width:70px;
+	background:url(img/button_gray.png) no-repeat;
+	color:#222222;
+}
+
+#mask a.greyButton:hover{
+	/* The hover effect on the "Join" button */
+	background-position:bottom left;
+	text-decoration:none;
+}
+
+div#mask a, div#mask a:hover, div#mask a:visited{
+	color:#0196e3;
+}
+
+#response{
+	/* The div that holds the response messages in the "Join area" */
+	margin-top:10px;
+	font-size:10px;
+	text-align:center;
+}
+
+.subscribe{
+	position:relative;
+}
+
+.membersCount{
+	/* The total number of fans div */
+	position:absolute;
+	right:0;
+	top:5px;
+	color:white;
+	display:block;
+	font-size:22px;
+	font-weight:bold;
+}
+
+.content img{
+	/* The twitter avatars */
+	margin:2px;
+}
+
+#fanPage, .content, .title{
+	/* Rounding three elements at once */
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+}
+
+a.joinFP, a.joinFP:hover{
+	/* The green "Join" button */
+	display:block;
+	background:url(img/buttons.png) no-repeat;
+	width:94px;
+	height:38px;
+	text-indent:-9999px;
+	margin:5px 0 0 -4px;
+}
+
+a.joinFP:hover{
+	/* The hover state of the button */
+	background-position:bottom left;
+}
+
+
+a img{
+	border:none;
+}
+
+/* The styles below are only necessary for the demo page */
+
+h1{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	font-size:36px;
+	font-weight:normal;
+	margin-bottom:15px;
+}
+
+#main{
+	/* The main container */
+	margin:15px auto;
+	text-align:center;
+	width:920px;
+	height:560px;
+	position:relative;
+	
+	background:url(img/demo_bg_gradient.jpg) no-repeat 50% 50%;
+}
+
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+p{
+	padding:10px;
+	text-align:center;
+}
+

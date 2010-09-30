@@ -1,0 +1,8 @@
+This is a collection of scripts that interact with the Twitter API and OAuth. The
+examples in this collection use Abraham's twitteroauth library by Abraham Williams.
+
+The first PHP library for working with Twitter's OAuth API.
+
+Documentation: http://wiki.github.com/abraham/twitteroauth/documentation 
+Source: http://github.com/abraham/twitteroauth
+Twitter: http://apiwiki.twitter.com
