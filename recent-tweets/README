@@ -10,9 +10,9 @@ You can also display multiple user feeds in the same box like this:
 <div id="twitter_box">
 <ul id="twitter_update_list">
 <?php
-$username = "popartinc spaceninja";
+$username = "USERNAME-HERE USERNAME-HERE";
 $tweetnumber = "10"; // Number of tweets to pull in
-parse_cache_feed( $usernames, $tweetnumber );
+parse_cache_feed( $username, $tweetnumber );
 ?>
 </ul>
 </div>
